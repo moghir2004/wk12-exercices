@@ -1,11 +1,16 @@
+var myVar = setInterval(myTimer(), 1000);
 var dt = new Date();
-document
-    .getElementById("date")
-    .innerHTML = dt.toLocaleDateString();
-var tm = new Date();
-for (var i; i <= 60; i++) {
-    tm.toLocaleTimeString();
+function date() {
+    document
+        .getElementById("date")
+        .innerHTML = dt.toLocaleDateString();
 }
-document
-    .getElementById("time")
-    .innerHTML = tm.toLocaleTimeString();
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+    var d = new Date();
+    document
+        .getElementById("demo")
+        .innerHTML = d.toLocaleTimeString();
+}
+date();
+myTimer();

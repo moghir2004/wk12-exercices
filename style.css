@@ -1,0 +1,14 @@
+body {
+    background-color: #212121;
+}
+#date, #time {
+    background-color: #1d1d1d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em 2em;
+    text-align: center;
+}
+#white-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,12 +1,12 @@
 body {
-    background-color: #212121;
+    background-color: #1d1d1d;
 }
 #date, #demo {
-    background-color: #1d1d1d;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em 2em;
     text-align: center;
+    font-size: 48px;
 }
 #white-text {
     color: white;
